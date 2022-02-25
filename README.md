@@ -1,5 +1,7 @@
 # DSC180 Capstone Project
 
+Site URL: https://889884m.github.io/DSC180_Project/
+
 Most of the project code was actually built using Jupyter Notebooks, so the latest working code would be found in the `Notebooks` folder. Here the latest figures and hyperparameter tuning can be found. Demonstrations of the Neural Net, Support Vector Machine, and Random Forest are here.
 
 The code is run via the command `python run.py test`. This runs the baseline model on the test data, which is simply the normal data but randomized.
