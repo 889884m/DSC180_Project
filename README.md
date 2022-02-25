@@ -1,4 +1,4 @@
-# DSC180 Capstone Project
+# Locating Sound with Machine Learning
 
 Site URL: https://889884m.github.io/DSC180_Project/
 
