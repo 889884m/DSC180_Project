@@ -32,5 +32,3 @@ for m, ax in zip(models.items(), axes):
 	regr.fit(X, y)
 	ax.scatter(*regr.predict(X).T)
 	ax.scatter(*regr.predict(active_L_table_slide_DOA).T, label=m[0])
-# %%
-fig
