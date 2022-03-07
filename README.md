@@ -13970,7 +13970,6 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Locating-Sound-with-Machine-Learning">Locating Sound with Machine Learning<a class="anchor-link" href="#Locating-Sound-with-Machine-Learning">&#182;</a></h1><p>Brady Zhou, 
 Raymond Zhao, 
 and Lingpeng Meng</p>
 
@@ -13979,9 +13978,9 @@ and Lingpeng Meng</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p float="left">
-  <img src="./imgs/pi_setup1.jpg" width="200"/>
-  <img src="./imgs/pi_setup2.jpg" width="200" />
-  <img src="./imgs/pi_setup3.jpg" width="200" />  
+  <img src="./imgs/pi_setup1.jpg" width="150"/>
+  <img src="./imgs/pi_setup2.jpg" width="150" />
+  <img src="./imgs/pi_setup3.jpg" width="150" />  
 </p><h5 id="Above:-some-of-our-experimental-setup.">Above: some of our experimental setup.<a class="anchor-link" href="#Above:-some-of-our-experimental-setup.">&#182;</a></h5><h2 id="Why-do-we-want-to-locate-sound?">Why do we want to locate sound?<a class="anchor-link" href="#Why-do-we-want-to-locate-sound?">&#182;</a></h2><p>Why do we value surround sound setups? Why do we listen to stero on headphones? We don't think about it normally, but locating the source of a sound is a key component of hearing. And for a machine like <code>Alexa</code> or <code>Google Home</code>, learning how locate where a sound comes from may play a key role in increasing a device's ability to hear and interpret our voices correctly.</p>
 
 </div>
