@@ -13979,16 +13979,17 @@ and Lingpeng Meng</p>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p float="left">
-  <img src="../imgs/pi_setup1.jpg" width="400"/>
-  <img src="../imgs/pi_setup2.jpg" width="400" />
-  <img src="../imgs/pi_setup3.jpg" width="400" />  
+  <img src="../imgs/pi_setup1.jpg" width="300"/>
+  <img src="../imgs/pi_setup2.jpg" width="300" />
+  <img src="../imgs/pi_setup3.jpg" width="300" />  
 </p><h5 id="Above:-some-of-our-experimental-setup.">Above: some of our experimental setup.<a class="anchor-link" href="#Above:-some-of-our-experimental-setup.">&#182;</a></h5><h2 id="Why-do-we-want-to-locate-sound?">Why do we want to locate sound?<a class="anchor-link" href="#Why-do-we-want-to-locate-sound?">&#182;</a></h2><p>Why do we value surround sound setups? Why do we listen to stero on headphones? We don't think about it normally, but locating the source of a sound is a key component of hearing. And for a machine like <code>Alexa</code> or <code>Google Home</code>, learning how locate where a sound comes from may play a key role in increasing a device's ability to hear and interpret our voices correctly.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="How-to-run-the-code">How to run the code<a class="anchor-link" href="#How-to-run-the-code">&#182;</a></h2><p>Most of the project code was actually built using Jupyter Notebooks, so the latest working code would be found in the <code>Notebooks</code> folder. Here the latest figures and hyperparameter tuning can be found. Demonstrations of the Neural Net, Support Vector Machine, and Random Forest are here.</p>
+<h2 id="How-to-run-the-code">How to run the code<a class="anchor-link" href="#How-to-run-the-code">&#182;</a></h2><p>The code repository can be found <a href="https://github.com/889884m/DSC180_Project">here</a></p>
+<p>Most of the project code was actually built using Jupyter Notebooks, so the latest working code would be found in the <code>Notebooks</code> folder. Here the latest figures and hyperparameter tuning can be found. Demonstrations of the Neural Net, Support Vector Machine, and Random Forest are here.</p>
 <p>The code is run via the command <code>python run.py test</code>. This runs the baseline model on the test data, which is simply the normal data but randomized.</p>
 <p>Project code with working models can be found in <code>src</code> folder. Here the code for data generation and the test data can be found. This is also where the model code can be found which is in the <code>prediction</code> folder. Here, the code for the feed-forward Neural Net and the SVM can be found.</p>
 <p>To build the <code>docker build -t &lt;tag_name&gt; .</code> which gives a local docker container with the libraries scipy, numpy, pandas, pytorch, and sklearn.</p>
