@@ -13970,6 +13970,7 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="Locating-Sound-with-Machine-Learning">Locating Sound with Machine Learning<a class="anchor-link" href="#Locating-Sound-with-Machine-Learning">&#182;</a></h1><p>Brady Zhou, 
 Raymond Zhao, 
 and Lingpeng Meng</p>
 
