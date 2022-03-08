@@ -21,14 +21,21 @@ active_long_table_slide_DOA = V5["active_long_table_slide_DOA"][:,6:]
 active_long_table_slide_matrix = V5["active_long_table_slide_matrix"]
 X, y = load_data(path='../data/doa_proj2_allData.p')
 # %%
-fig, axes = plt.subplots(3, 2)
-axes = axes.flatten()
+models = {
+	'linear regression': LinearRegression,
+	'ridge': Ridge,
+	'svr': SVR,
+	'decision tree': DecisionTreeRegressor,
+	'random forest': RandomForestRegressor,
+	'xgb': XGBRegressor
+}
+predictions = {m: MultiOutputRegressor(m[1]()).fit(X, y).predict(X) for m, ax in zip(models.items(), axes)}
 # %%
-models = {'linear regression': LinearRegression, 'ridge': Ridge, 'svr': SVR, 'decision tree': DecisionTreeRegressor, 'random forest': RandomForestRegressor, 'xgb': XGBRegressor}
-for m, ax in zip(models.items(), axes):
-	regr = MultiOutputRegressor(m[1]())
-	regr.fit(X, y)
-	plt.scatter(*regr.predict(X).T)
-	# ax.scatter(*regr.predict(active_L_table_slide_DOA).T, label=m[0])
-fig
+fig1, axes1 = plt.subplots(3, 2)
+axes1 = axes1.flatten()
+fig2, ax2 = plt.subplots()
+[ax.scatter(*prediction.T, label=m) for ax, (m, prediction) in zip(axes1, predictions.items())]
+[ax2.scatter(*prediction.T) for prediction in predictions.values()]
 # %%
+fig1.show()
+fig2.show()
